@@ -175,3 +175,10 @@ h2 {
   background-color: #619af5;
   color: #F9FAF8
 }
+
+footer {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  text-align: center;
+  padding: 20px;
+}
