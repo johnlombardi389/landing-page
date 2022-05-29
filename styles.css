@@ -108,7 +108,7 @@ h2 {
 
 .card-flex {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 50px;
 }
@@ -119,8 +119,10 @@ h2 {
 }
 
 .card {
+  background-color: #F9FAF8;
   border: solid;
   border-color: #1F2937;
+  border-radius: 10px;
   padding: 25px;
 }
 
