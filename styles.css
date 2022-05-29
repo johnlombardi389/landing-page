@@ -1,16 +1,19 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', 'sans-serif';
 }
 
 .nav-container {
   background-color: #1F2937;
+  padding: 10px;
 }
 
 .logo {
   text-decoration: none;
   color: #F9FAF8;
   font-size: 24px;
+  font-weight: bold;
 }
 
 .nav-links {
@@ -32,13 +35,65 @@ nav {
 .nav-links {
   display: flex;
   align-items: center;
+  gap: 100px;
 }
 
 .nlinks {
   flex-direction: row;
-  padding: 30px;
 }
 
 .nlinks:hover {
   text-decoration: underline;
+}
+
+.splash-container {
+  background-color: #1F2937;
+  padding: 50px;
+}
+
+.intro-h1 {
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.intro-p {
+  color: #E5E7EB;
+  font-size: 18px;
+  margin: 10px 0px 30px 0px;
+}
+
+.pasta {
+  height:auto;
+  width: 500px;
+}
+
+.splash-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro-text-container {
+  padding-left: 250px;
+  padding-right: 50px;
+}
+
+.splash-image {
+  padding-right: 250px;
+}
+
+.sign-up-b {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sign-up-b:hover {
+  background-color: #619af5;
+  color: #F9FAF8
 }
