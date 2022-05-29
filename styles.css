@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-container {
+  background-color: #1F2937;
+}
+
+.logo {
+  text-decoration: none;
+  color: #F9FAF8;
+  font-size: 24px;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nlinks {
+  text-decoration: none;
+  color: #F9FAF8;
+  font-size: 18px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nlinks {
+  flex-direction: row;
+  padding: 30px;
+}
+
+.nlinks:hover {
+  text-decoration: underline;
+}
