@@ -160,3 +160,18 @@ h2 {
   justify-content: space-between;
   align-items: center;
 }
+
+.cta-b {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border: solid;
+  border-color: #F9FAF8;
+  padding: 10px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cta-b:hover {
+  background-color: #619af5;
+  color: #F9FAF8
+}
