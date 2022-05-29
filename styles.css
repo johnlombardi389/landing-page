@@ -146,3 +146,17 @@ h2 {
   font-size: 18px;
   font-weight: bold;
 }
+
+.cta-zone {
+  padding: 150px;
+}
+
+.cta-container {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  padding: 20px 50px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
