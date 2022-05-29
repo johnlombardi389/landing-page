@@ -97,3 +97,19 @@ nav {
   background-color: #619af5;
   color: #F9FAF8
 }
+
+.card-container {
+  padding: 50px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.card-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
